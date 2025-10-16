@@ -1,0 +1,24 @@
+/* App.css - Additional app-specific styles */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0f172a 0%, #1e293b 100%);
+}
+
+.hero-gradient {
+  background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15) 0%, transparent 50%);
+}
+
+.section-padding {
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 6rem 2rem;
+  }
+}
+
+.container-max {
+  max-width: 1280px;
+  margin: 0 auto;
+}
